@@ -12,7 +12,7 @@ Dark Mode Safari is a Safari extension that changes webpage colors on your Mac. 
 
 ## Webpage content and permissions
 
-Safari website access lets the extension read page styles, images and page structure to create a theme. This processing happens on your Mac. The app does not send your browsing history, page content, search queries or site settings to the developer. Private-window operation uses the same local processing and requires a separate Safari permission.
+Safari website access lets the extension read page styles, images and page structure to create a theme. This processing happens on your Mac. The app does not send your browsing history, page content, search queries or site settings to the developer. Private-window operation uses the same local processing. On macOS 14 or later, it requires a separate Safari private-window permission.
 
 To render a website, Safari may request that site’s stylesheets and images from their original servers, including resources the extension needs to examine. Those servers receive ordinary web requests under their own privacy policies. The app does not operate a browsing proxy or developer content server.
 
@@ -59,7 +59,7 @@ Dark Mode Safari, Mac’inizde sayfa renklerini değiştiren bir Safari uzantıs
 
 ## Sayfa içeriği ve izinler
 
-Safari site erişimi, uzantının tema oluşturmak için sayfanın stillerini, görsellerini ve yapısını okumasını sağlar. Bu işlem Mac’inizde yapılır. Uygulama tarama geçmişinizi, sayfa içeriğini, arama sorgularını veya site ayarlarını geliştiriciye göndermez. Özel pencerelerde de aynı yerel işlem kullanılır; Safari’den ayrıca izin gerekir.
+Safari site erişimi, uzantının tema oluşturmak için sayfanın stillerini, görsellerini ve yapısını okumasını sağlar. Bu işlem Mac’inizde yapılır. Uygulama tarama geçmişinizi, sayfa içeriğini, arama sorgularını veya site ayarlarını geliştiriciye göndermez. Özel pencerelerde de aynı yerel işlem kullanılır. macOS 14 ve üstünde Safari’den ayrıca özel dolaşma izni gerekir.
 
 Safari, sayfayı oluşturmak için uzantının incelemesi gereken kaynaklar dahil sitenin stil ve görsellerini özgün sunucularından isteyebilir. Bu sunucular normal web isteklerini kendi gizlilik politikaları kapsamında alır. Uygulama bir tarama vekil sunucusu veya geliştirici içerik sunucusu işletmez.
 
